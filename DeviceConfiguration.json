@@ -1,0 +1,59 @@
+﻿{
+  "virtual_organization": [
+    [ "中山公园", "44198700001510000001" ],
+    [ "世纪大道", "44198700001510000002" ],
+    [ "龙阳路", "44198700001510000003" ],
+    [ "人民广场", "44198700001510000004" ]
+  ],
+
+  "business_group": [
+    [ "领导私有视频组", "34020000001350000001" ],
+    [ "码农共享视频组", "34020000001350000002" ]
+  ],
+
+  "deviceinfo_default": {
+    "Name": "Compnay",
+    "Model": "model",
+    "Firmware": "1.0.0",
+    "Maxcam": 1,
+    "Maxalarm": 1,
+    "Manufacture": "Compnay",
+    "Address": "address",
+    "CivilCode": "123",
+    "Owner": "Compnay",
+    "Parental": 1,
+    "SafetyWay": 0,
+    "RegisterWay": 0,
+    "Secrecy": 0
+  },
+
+  "id_generator_rules": {
+    "number_only": true,
+    "letter_ony": false,
+    "re_create": false,
+    "civil_mask": "",
+    "last_ipc_id": "",
+    "last_dvr_id": "",
+    "last_camera_id": "",
+    "last_alarm_id": "",
+    "last_nvr_id": "",
+    "last_encord_id": "",
+    "last_decord_id": "",
+    "last_decord_channel_id": ""
+  },
+
+  "catalog_push": [
+    "ipc",
+    "camera",
+    "decorder",
+    "alarm"
+  ],
+
+  "device_typedef": [
+    [ "4E15C5A9-6E1A-4466-9BC6-096DC90B6037", "Encoder" ],
+    [ "F47E1BE5-888F-41EB-8C44-0FEC7EBB8490", "DVR" ],
+    [ "8C580003-D98B-4A74-AAD5-1ACF724097DB", "Encoder" ],
+    [ "E89D8982-DD0B-4B28-9950-225B8E16E248", "IPC" ]
+
+  ]
+}
